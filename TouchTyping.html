@@ -1,0 +1,67 @@
+<!----------------------------Ex2-HTML-----------------------
+	
+	Authors:				 Roi Cohen 			 301063814
+							Yuval Tzidkiyahu    302909460
+
+---------------------------------------------------------->
+<!DOCTYPE html>
+<html>
+    <head>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+		 <link href="TouchTyping.css" rel="stylesheet" />
+
+
+   </head>
+  
+    <body>
+		<div class = "wrapper">
+			<div id = "header">
+			Touch Typing
+			</div>
+			<div id = "header2"></div>
+			
+			<div id="nav">Press Start to play</div>
+			<div id="report"></div>
+			
+			<div class="nav2">
+				<input  type="text" id="mytext"name="txt" onkeydown="keyPressed()" onkeyup="keyPressed()"
+				placeholder="Write here without looking on the keyboard!">
+			</div>
+			
+			<div class="main">
+				<div id="stat">
+					<div id="statLine">
+						<span>Statistics: </span> 			
+						<span id="sta"></span>
+						
+					</div>
+					<div id="statLine">
+						</br><span>Time elapsed:</span> 
+						<span id="time"></span>
+					</div>
+					<div id="statLine">
+						<span>speed:</span> 
+						<span id="wpm"></span>
+					</div>
+					<div id="statLine">
+						<span>Error: </span> 
+						<span id="err"></span>
+					</div>
+					<div id="statLine">
+						<span>Characters Typed: </span> 
+						<span id="charT"></span>
+					</div>
+				</div>
+				<div id="button">
+					<div class = "myButton"  onclick = "pauseListener()">Pause</div>
+					<div class= "myButton" onclick = "clickListener()">Start</div>
+				</div>
+			</div>
+				<div id="footer">All right reserved to Roi & Yuval</div>
+			
+			
+			
+		
+    </body>
+	 <script type="text/javascript" src="TouchTyping.js"></script>
+</html> 

@@ -1,8 +1,6 @@
 /*----------------------------Ex2-JavaScript------------------------
 	
-	Authors:				 Roi Cohen 			 301063814
-						 Yuval Tzidkiyahu    302909460
-
+ Roi Cohen 		
 ----------------------------------------------------------
 js-
 var textArray: array that handle all the quats.
